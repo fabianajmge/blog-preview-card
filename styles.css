@@ -42,7 +42,7 @@ body {
     font-weight: 600;
 }
 
-h1 {
+a {
     font-weight: 700;
     font-size: 20px;
 }
@@ -79,6 +79,34 @@ h1 {
     left: 0;
     right: 0;
     text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+    .frame {
+        width: 30%;
+    }
+
+    img {
+        width: 100%;
+        height: auto !important;
+    }
+
+    a:active {
+        color: #F4D04E;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .principal {
+        padding: 5% 1em 0 1em;
+    }
 }
 
 @font-face {
